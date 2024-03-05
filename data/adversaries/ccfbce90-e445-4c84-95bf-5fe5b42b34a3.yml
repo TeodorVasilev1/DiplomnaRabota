@@ -1,0 +1,16 @@
+adversary_id: ccfbce90-e445-4c84-95bf-5fe5b42b34a3
+name: LinuxCorporate
+description: Adversary profile to test a corporate infrastructure
+atomic_ordering:
+- c0da588f-79f0-4263-8998-7496b1a40596
+- c1cd6388-3ced-48c7-a511-0434c6ba8f48
+- 1a70f3b2-b7e1-45e0-8076-73931bca65da
+- 422526ec-27e9-429a-995b-c686a29561a4
+- 9e62fabced0c827c22ff9a6b8fa339fe
+- af30d8506a8aba7a022b687261d22541
+- 927d62f0c59f2a0832d95562bc3e84e2
+- 36eecb80-ede3-442b-8774-956e906aff02
+- bed433ba-8d04-4a27-8dbb-f664fbd4ba41
+- 637c646c-06e5-4c5e-bed7-23617460c73e
+objective: 495a9828-cab1-44dd-a0ca-66e58177d8cc
+tags: []

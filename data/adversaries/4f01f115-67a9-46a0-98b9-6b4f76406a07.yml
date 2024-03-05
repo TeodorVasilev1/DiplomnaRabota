@@ -1,0 +1,7 @@
+adversary_id: 4f01f115-67a9-46a0-98b9-6b4f76406a07
+name: Custom
+description: Everything
+atomic_ordering:
+- 90c2efaa-8205-480d-8bb6-61d90dbaf81b
+objective: 495a9828-cab1-44dd-a0ca-66e58177d8cc
+tags: []

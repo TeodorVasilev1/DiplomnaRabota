@@ -1,0 +1,6 @@
+adversary_id: d08704ac-2df6-4435-ac8e-634357cc01f4
+name: 'lateral movement from Linux '
+description: Compromised Linux host
+atomic_ordering: []
+objective: 495a9828-cab1-44dd-a0ca-66e58177d8cc
+tags: []

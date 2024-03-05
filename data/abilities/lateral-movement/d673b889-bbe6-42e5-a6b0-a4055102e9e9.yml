@@ -1,0 +1,22 @@
+- name: nslookup Linux
+  description: 'nslookup '
+  tactic: lateral-movement
+  technique_id: T1562.001
+  technique_name: 'Unsecured Credentials: Private Keys'
+  executors:
+  - payloads: []
+    platform: linux
+    name: sh
+    cleanup: []
+    parsers: []
+    command: 'nslookup #{remote.host.ip}'
+    timeout: '64'
+  repeatable: false
+  additional_info: {}
+  privilege: ''
+  singleton: true
+  buckets: []
+  requirements: []
+  access: {}
+  cleanup: []
+  id: d673b889-bbe6-42e5-a6b0-a4055102e9e9

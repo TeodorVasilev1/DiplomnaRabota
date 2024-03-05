@@ -1,0 +1,36 @@
+- tactic: discovery
+  technique_name: Network Service Scanning
+  technique_id: T1046
+  name: 'Nmap vuln scan for SMB '
+  description: Discover hosts running Samba services and vuln
+  executors:
+  - name: sh
+    platform: linux
+    command: 'nmap -p 139,445 --open --script smb-vuln* #{ipv4_address_and_mask}
+
+      '
+    code: null
+    language: null
+    build_target: null
+    payloads: []
+    uploads: []
+    timeout: 60
+    parsers: []
+    cleanup:
+    - ''
+    variations: []
+    additional_info: {}
+  requirements:
+  - module: plugins.stockpile.app.requirements.basic
+    relationship_match:
+    - source: ipv4_address_and_mask
+  privilege: ''
+  repeatable: false
+  buckets: []
+  additional_info:
+    cleanup: '[]'
+  access: {}
+  singleton: true
+  plugin: ''
+  delete_payload: true
+  id: bed433ba-8d04-4a27-8dbb-f664fbd4ba41
